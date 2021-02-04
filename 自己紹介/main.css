@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://frame-illust.com/fi/wp-content/uploads/2015/01/1cf1a00075e88d7126edc762bb860764.png");
+}
+h2 {
+  color: indianred;
+  font-size: 30px;
+}
+.header-logo {
+  font-size: 30px;
+  background-color: #ffe4e1;
+  height: 200;
+}
+img {
+  float: absolute;
+}
+.main-logo {
+  padding: 30px;
+  float: left;
+}
+.main-button {
+  padding-left: 20%;
+  float: left;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+a {
+  background-color: #ffeee6;
+}
