@@ -1,9 +1,13 @@
 body {
+  width: 100%;
+  height: 100%;
   background-image: url("https://frame-illust.com/fi/wp-content/uploads/2015/01/1cf1a00075e88d7126edc762bb860764.png");
 }
 h2 {
   color: indianred;
   font-size: 30px;
+}
+.main {
 }
 .header-logo {
   font-size: 30px;
@@ -11,23 +15,57 @@ h2 {
   height: 200;
 }
 img {
-  float: absolute;
+  float: left;
 }
 .main-logo {
-  padding: 30px;
+  padding: 0px;
   float: left;
 }
 .main-button {
-  padding-left: 20%;
-  float: left;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 button {
-  width: 100px;
+  padding-bottom: 50px;
+  color: cornflowerblue;
+  width: 150px;
   height: 100px;
   background-color: antiquewhite;
+  float: none;
+  padding: 10px;
 }
 
 a {
   background-color: #ffeee6;
+  background-size: 15px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+.mondai {
+  padding: 200px 10px 20px 30px;
+  font-size: 25px;
+}
+
+p {
+  color: rgb(85, 53, 5);
+  font-family: "Hiragino Kaku Gothic StdN";
+}
+
+.question {
+  font-size: 30px;
+  padding-left: 30px;
+}
+.q1 {
+  padding-left: 30px;
+}
+.q2 {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.qbutton-1 {
+  color: bisque;
+  padding-left: 30px;
 }
